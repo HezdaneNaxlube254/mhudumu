@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment at MHUDUMU HOSPITAL - Online Booking | Kitengela</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Book your appointment online at MHUDUMU Hospital. Choose your preferred department, date, and doctor. Quick and easy appointment scheduling in Kitengela.">
+    <meta name="keywords" content="book appointment hospital, online doctor booking, appointment scheduler, hospital appointment Kitengela">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Book Appointment at MHUDUMU HOSPITAL">
+    <meta property="og:description" content="Schedule your visit online with our easy appointment booking system.">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
+    
+    <!-- Emergency Header -->
+    <div class="emergency-header">
+        <div class="container">
+            <div class="emergency-contacts">
+                <div class="emergency-item">
+                    <div class="emergency-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <div class="emergency-info">
+                        <span class="emergency-label">Emergency 24/7</span>
+                        <a href="tel:+254722000000" class="emergency-number">+254 722 000 000</a>
+                    </div>
+                </div>
+                
+                <div class="emergency-item">
+                    <div class="emergency-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="emergency-info">
+                        <span class="emergency-label">Ambulance</span>
+                        <a href="tel:+254733000000" class="emergency-number">+254 733 000 000</a>
+                    </div>
+                </div>
+                
+                <div class="emergency-item">
+                    <div class="emergency-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="emergency-info">
+                        <span class="emergency-label">Working Hours</span>
+                        <span class="emergency-number">24/7 Service</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="emergency-badge-pulse">
+                <i class="fas fa-exclamation-triangle"></i>
+                EMERGENCY: 24/7 AVAILABLE
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-3d">
+                    <div class="logo-3d-inner">
+                        <div class="logo-front">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="logo-back">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-text">
+                    <h1>MHUDUMU <span class="gradient-text">HOSPITAL</span></h1>
+                    <span class="logo-badge">EST.2020</span>
+                </div>
+            </div>
+            
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="insurance.html">Insurance</a></li>
+                <li><a href="blog.html">Health Blog</a></li>  <!-- Add this line -->
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="appointment.html" class="book-btn active"><i class="fas fa-calendar-check"></i> Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main id="main-content">
+        
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="page-header-pattern"></div>
+            <div class="container">
+                <div class="page-header-content" data-aos="fade-up">
+                    <h1 class="page-header-title">Book an Appointment</h1>
+                    <div class="breadcrumb-modern">
+                        <ul class="breadcrumb-list">
+                            <li><a href="index.html">Home</a></li>
+                            <li>Book Appointment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Appointment Intro -->
+        <section class="section-modern" style="padding: 3rem 0;">
+            <div class="container">
+                <div style="text-align: center; max-width: 800px; margin: 0 auto;" data-aos="fade-up">
+                    <span class="section-subtitle">Schedule Your Visit</span>
+                    <h2 class="section-title-modern" style="margin-bottom: 1.5rem;">
+                        Easy & Convenient <span>Appointment Booking</span>
+                    </h2>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: var(--gray-dark);">
+                        Fill out the form below to schedule your appointment. Our team will confirm your booking 
+                        within 24 hours via phone or email. For emergencies, please call our emergency line directly.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Appointment Form Section -->
+        <section class="section-modern" style="background: var(--light); padding-top: 2rem;">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem;">
+                    <!-- Appointment Form -->
+                    <div data-aos="fade-right">
+                        <div class="form-modern" style="background: white; padding: 2.5rem; border-radius: var(--border-radius-lg); box-shadow: var(--box-shadow-lg);">
+                            <h3 style="margin-bottom: 2rem; color: var(--primary);">Appointment Details</h3>
+                            
+                            <form id="appointmentForm">
+                                <!-- Personal Information -->
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 style="margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--dark); border-bottom: 2px solid var(--primary-soft); padding-bottom: 0.5rem;">
+                                        <i class="fas fa-user" style="color: var(--primary); margin-right: 0.5rem;"></i> Personal Information
+                                    </h4>
+                                    
+                                    <div class="form-group-modern">
+                                        <label for="fullName" class="form-label-modern">Full Name *</label>
+                                        <input type="text" id="fullName" class="form-control-modern" placeholder="Enter your full name" required>
+                                    </div>
+                                    
+                                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                                        <div class="form-group-modern">
+                                            <label for="phone" class="form-label-modern">Phone Number *</label>
+                                            <input type="tel" id="phone" class="form-control-modern" placeholder="e.g., 0712345678" required>
+                                        </div>
+                                        
+                                        <div class="form-group-modern">
+                                            <label for="email" class="form-label-modern">Email Address *</label>
+                                            <input type="email" id="email" class="form-control-modern" placeholder="your@email.com" required>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group-modern">
+                                        <label for="idNumber" class="form-label-modern">ID Number / Passport</label>
+                                        <input type="text" id="idNumber" class="form-control-modern" placeholder="Enter your ID or passport number">
+                                    </div>
+                                </div>
+                                
+                                <!-- Appointment Details -->
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 style="margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--dark); border-bottom: 2px solid var(--primary-soft); padding-bottom: 0.5rem;">
+                                        <i class="fas fa-calendar-alt" style="color: var(--primary); margin-right: 0.5rem;"></i> Appointment Details
+                                    </h4>
+                                    
+                                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                                        <div class="form-group-modern">
+                                            <label for="department" class="form-label-modern">Department *</label>
+                                            <select id="department" class="form-control-modern" required>
+                                                <option value="">Select Department</option>
+                                                <option value="emergency">Emergency Services</option>
+                                                <option value="outpatient">Outpatient Services</option>
+                                                <option value="inpatient">Inpatient Services</option>
+                                                <option value="maternity">Maternity</option>
+                                                <option value="laboratory">Laboratory</option>
+                                                <option value="radiology">Radiology</option>
+                                                <option value="pharmacy">Pharmacy</option>
+                                                <option value="diabetes">Diabetes Clinic</option>
+                                                <option value="cardiology">Cardiology Clinic</option>
+                                                <option value="pediatrics">Pediatrics Clinic</option>
+                                                <option value="antenatal">Antenatal Clinic</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="form-group-modern">
+                                            <label for="doctor" class="form-label-modern">Preferred Doctor (Optional)</label>
+                                            <select id="doctor" class="form-control-modern">
+                                                <option value="">Any Available Doctor</option>
+                                                <option value="jane-mwende">Dr. Jane Mwende - Physician</option>
+                                                <option value="james-odhiambo">Dr. James Odhiambo - Pediatrician</option>
+                                                <option value="sarah-wanjiku">Dr. Sarah Wanjiku - OB/GYN</option>
+                                                <option value="peter-kipchoge">Dr. Peter Kipchoge - Cardiologist</option>
+                                                <option value="david-omondi">Dr. David Omondi - Surgeon</option>
+                                                <option value="mary-atieno">Dr. Mary Atieno - Endocrinologist</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                                        <div class="form-group-modern">
+                                            <label for="date" class="form-label-modern">Preferred Date *</label>
+                                            <input type="date" id="date" class="form-control-modern" required>
+                                        </div>
+                                        
+                                        <div class="form-group-modern">
+                                            <label for="time" class="form-label-modern">Preferred Time</label>
+                                            <select id="time" class="form-control-modern">
+                                                <option value="">Any Time</option>
+                                                <option value="morning">Morning (8:00am - 12:00pm)</option>
+                                                <option value="afternoon">Afternoon (12:00pm - 4:00pm)</option>
+                                                <option value="evening">Evening (4:00pm - 8:00pm)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group-modern">
+                                        <label for="branch" class="form-label-modern">Preferred Branch *</label>
+                                        <select id="branch" class="form-control-modern" required>
+                                            <option value="">Select Branch</option>
+                                            <option value="kitengela">Main Branch - Kitengela</option>
+                                            <option value="athi-river">Satellite Clinic - Athi River</option>
+                                            <option value="isinya">Outreach Center - Isinya</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <!-- Insurance & Payment -->
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 style="margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--dark); border-bottom: 2px solid var(--primary-soft); padding-bottom: 0.5rem;">
+                                        <i class="fas fa-shield-alt" style="color: var(--primary); margin-right: 0.5rem;"></i> Insurance & Payment
+                                    </h4>
+                                    
+                                    <div class="form-group-modern">
+                                        <label for="insurance" class="form-label-modern">Insurance Provider</label>
+                                        <select id="insurance" class="form-control-modern">
+                                            <option value="">None (Self Pay)</option>
+                                            <option value="nhif">NHIF</option>
+                                            <option value="jubilee">Jubilee Insurance</option>
+                                            <option value="aar">AAR Insurance</option>
+                                            <option value="britam">Britam</option>
+                                            <option value="cic">CIC Insurance</option>
+                                            <option value="resolution">Resolution Insurance</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="form-group-modern">
+                                        <label for="insuranceNumber" class="form-label-modern">Insurance Membership Number</label>
+                                        <input type="text" id="insuranceNumber" class="form-control-modern" placeholder="Enter your membership number">
+                                    </div>
+                                </div>
+                                
+                                <!-- Additional Information -->
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 style="margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--dark); border-bottom: 2px solid var(--primary-soft); padding-bottom: 0.5rem;">
+                                        <i class="fas fa-notes-medical" style="color: var(--primary); margin-right: 0.5rem;"></i> Additional Information
+                                    </h4>
+                                    
+                                    <div class="form-group-modern">
+                                        <label for="message" class="form-label-modern">Brief Description / Notes</label>
+                                        <textarea id="message" class="form-control-modern" rows="4" placeholder="Please describe your symptoms or reason for visit..."></textarea>
+                                    </div>
+                                    
+                                    <div class="form-group-modern">
+                                        <label for="howHeard" class="form-label-modern">How did you hear about us?</label>
+                                        <select id="howHeard" class="form-control-modern">
+                                            <option value="">Select an option</option>
+                                            <option value="search">Google / Internet Search</option>
+                                            <option value="social">Social Media</option>
+                                            <option value="friend">Friend / Family</option>
+                                            <option value="doctor">Doctor Referral</option>
+                                            <option value="insurance">Insurance Provider</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <!-- Consent -->
+                                <div style="margin-bottom: 2rem;">
+                                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem;">
+                                        <input type="checkbox" id="consent" style="width: 18px; height: 18px;" required>
+                                        <label for="consent" style="color: var(--gray-dark);">I confirm that the information provided is accurate and I consent to MHUDUMU Hospital processing my data for appointment purposes. *</label>
+                                    </div>
+                                    
+                                    <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                        <input type="checkbox" id="updates" style="width: 18px; height: 18px;">
+                                        <label for="updates" style="color: var(--gray-dark);">I would like to receive health tips and hospital updates via email/SMS</label>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn-modern btn-primary-modern" style="width: 100%; padding: 1.2rem; font-size: 1.1rem;">
+                                    <i class="fas fa-calendar-check"></i> Book Appointment
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!-- Sidebar Information -->
+                    <div data-aos="fade-left">
+                        <!-- Appointment Info Card -->
+                        <div class="service-card-modern" style="margin-bottom: 2rem;">
+                            <h3 style="margin-bottom: 1.5rem; color: var(--primary);">
+                                <i class="fas fa-info-circle"></i> Important Information
+                            </h3>
+                            <ul style="list-style: none;">
+                                <li style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                                    <i class="fas fa-check-circle" style="color: var(--success); margin-top: 0.2rem;"></i>
+                                    <span>Appointments are confirmed within 24 hours via phone or SMS</span>
+                                </li>
+                                <li style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                                    <i class="fas fa-check-circle" style="color: var(--success); margin-top: 0.2rem;"></i>
+                                    <span>Please arrive 15 minutes before your appointment time</span>
+                                </li>
+                                <li style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                                    <i class="fas fa-check-circle" style="color: var(--success); margin-top: 0.2rem;"></i>
+                                    <span>Bring your NHIF card, insurance card, and ID if applicable</span>
+                                </li>
+                                <li style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                                    <i class="fas fa-check-circle" style="color: var(--success); margin-top: 0.2rem;"></i>
+                                    <span>For cancellations, please notify us at least 2 hours in advance</span>
+                                </li>
+                                <li style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                                    <i class="fas fa-check-circle" style="color: var(--success); margin-top: 0.2rem;"></i>
+                                    <span>Emergency cases should NOT use this form - call our emergency line</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Contact Card -->
+                        <div class="service-card-modern" style="background: var(--primary); color: white; margin-bottom: 2rem;">
+                            <h3 style="color: white; margin-bottom: 1.5rem;">
+                                <i class="fas fa-phone-alt"></i> Need Help?
+                            </h3>
+                            <p style="margin-bottom: 1.5rem; opacity: 0.9;">Call our appointment desk for assistance with booking</p>
+                            <div style="margin-bottom: 1rem;">
+                                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:+254700000000" style="color: white; text-decoration: none; font-size: 1.2rem;">+254 700 000 000</a>
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <a href="https://wa.me/254712345678" style="color: white; text-decoration: none; font-size: 1.2rem;">+254 712 345 678</a>
+                                </div>
+                            </div>
+                            <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.2);">
+                                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Mon-Sat: 8:00am - 8:00pm | Sun: 10:00am - 4:00pm</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Emergency Card -->
+                        <div class="service-card-modern" style="border: 2px solid var(--emergency);">
+                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                                <div style="width: 50px; height: 50px; background: var(--emergency); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                                <h3 style="color: var(--emergency); margin: 0;">Emergency?</h3>
+                            </div>
+                            <p style="margin-bottom: 1rem;">For medical emergencies, please call our 24/7 emergency line immediately. Do not use this form for emergencies.</p>
+                            <a href="tel:+254722000000" class="btn-modern" style="background: var(--emergency); color: white; display: block; text-align: center; padding: 1rem; border-radius: 50px; text-decoration: none; font-weight: 600;">
+                                <i class="fas fa-phone-alt"></i> Call Emergency: +254 722 000 000
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Appointment Benefits -->
+        <section class="section-modern">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Why Book Online?</span>
+                    <h2 class="section-title-modern">
+                        Benefits of <span>Online Booking</span>
+                    </h2>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-top: 3rem;">
+                    <div class="service-card-modern" style="text-align: center;" data-aos="fade-up">
+                        <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Save Time</h3>
+                        <p style="color: var(--gray);">Skip the queue and book your slot in minutes</p>
+                    </div>
+                    
+                    <div class="service-card-modern" style="text-align: center;" data-aos="fade-up" data-aos-delay="100">
+                        <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>24/7 Booking</h3>
+                        <p style="color: var(--gray);">Book anytime, anywhere - even after hours</p>
+                    </div>
+                    
+                    <div class="service-card-modern" style="text-align: center;" data-aos="fade-up" data-aos-delay="200">
+                        <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Choose Doctor</h3>
+                        <p style="color: var(--gray);">Select your preferred specialist</p>
+                    </div>
+                    
+                    <div class="service-card-modern" style="text-align: center;" data-aos="fade-up" data-aos-delay="300">
+                        <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h3>Reminders</h3>
+                        <p style="color: var(--gray);">Get SMS reminders before your appointment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="cta-modern">
+            <div class="cta-pattern"></div>
+            <div class="container">
+                <div class="cta-content" data-aos="zoom-in">
+                    <h2 class="cta-title">Prefer to Book by Phone?</h2>
+                    <p class="cta-description">
+                        Call our appointment desk and we'll help you schedule your visit
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="tel:+254700000000" class="btn-cta">
+                            <i class="fas fa-phone-alt"></i> +254 700 000 000
+                        </a>
+                        <a href="contact.html" class="btn-cta btn-cta-outline">
+                            <i class="fas fa-map-marker-alt"></i> Visit Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Success Modal -->
+    <div id="appointmentSuccessModal" class="service-detail-modal">
+        <div class="modal-content" style="max-width: 500px; text-align: center;">
+            <div class="modal-close" onclick="document.getElementById('appointmentSuccessModal').classList.remove('active'); document.body.style.overflow = 'auto';">
+                <i class="fas fa-times"></i>
+            </div>
+            <div style="font-size: 5rem; color: var(--success); margin-bottom: 1rem;">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2 style="color: var(--primary); margin-bottom: 1rem;">Appointment Request Received!</h2>
+            <p style="margin-bottom: 2rem; line-height: 1.8;">Thank you for choosing MHUDUMU Hospital. We will contact you within 24 hours to confirm your appointment via phone or SMS.</p>
+            <div style="background: var(--light); padding: 1rem; border-radius: var(--border-radius-md); margin-bottom: 2rem;">
+                <p style="margin-bottom: 0.5rem;"><strong>Reference Number:</strong> <span style="color: var(--primary);">MHUD-2024-${Math.floor(Math.random() * 10000)}</span></p>
+                <p style="font-size: 0.9rem; color: var(--gray);">Please keep this number for reference</p>
+            </div>
+            <a href="index.html" class="btn-modern btn-primary-modern" style="display: inline-block; padding: 1rem 2rem;">
+                <i class="fas fa-home"></i> Return to Home
+            </a>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer-modern">
+        <div class="footer-wave"></div>
+        <div class="container">
+            <div class="footer-grid-modern">
+                <div>
+                    <div class="footer-logo">
+                        <h2>MHUDUMU <span>HOSPITAL</span></h2>
+                    </div>
+                    <p class="footer-about">
+                        Your Health, Our Sacred Duty. Providing quality healthcare to the Kitengela community 
+                        with compassion, integrity, and excellence.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Our Services</a></li>
+                        <li><a href="doctors.html"><i class="fas fa-chevron-right"></i> Our Doctors</a></li>
+                        <li><a href="insurance.html"><i class="fas fa-chevron-right"></i> Insurance</a></li>
+                        <li><a href="blog.html"><i class="fas fa-chevron-right"></i> Health Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">Our Branches</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Main: Kitengela</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Satellite: Athi River</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Outreach: Isinya</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <div>Reception: +254 700 000 000</div>
+                            <div>Emergency: +254 722 000 000</div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>info@mhudumuhospital.co.ke</div>
+                    </div>
+                    
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>Mon-Sat: 8am-8pm<br>Sun: 10am-4pm</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 MHUDUMU HOSPITAL. All rights reserved. | Reg: HOSP/REG/2020/001 | NHIF Accredited</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-chat" onclick="window.open('https://wa.me/254712345678', '_blank')">
+            <i class="fab fa-whatsapp"></i>
+            <span class="tooltip">Chat with us</span>
+        </div>
+        
+        <div class="floating-chat" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <i class="fas fa-arrow-up"></i>
+            <span class="tooltip">Back to top</span>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+        
+        // Set min date for date picker (today)
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('date').setAttribute('min', today);
+        
+        // Get URL parameters (for pre-selecting department from other pages)
+        const urlParams = new URLSearchParams(window.location.search);
+        const departmentParam = urlParams.get('department');
+        if (departmentParam) {
+            const departmentSelect = document.getElementById('department');
+            for (let option of departmentSelect.options) {
+                if (option.text.toLowerCase().includes(decodeURIComponent(departmentParam).toLowerCase())) {
+                    option.selected = true;
+                    break;
+                }
+            }
+        }
+        
+        // Form submission
+        document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic validation
+            const required = ['fullName', 'phone', 'email', 'department', 'date', 'branch'];
+            let isValid = true;
+            
+            required.forEach(field => {
+                const element = document.getElementById(field);
+                if (!element.value) {
+                    element.style.borderColor = 'var(--emergency)';
+                    isValid = false;
+                } else {
+                    element.style.borderColor = '';
+                }
+            });
+            
+            if (!document.getElementById('consent').checked) {
+                alert('Please confirm that your information is accurate');
+                isValid = false;
+            }
+            
+            if (!isValid) {
+                alert('Please fill in all required fields');
+                return;
+            }
+            
+            // Show loading state
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
+            submitBtn.disabled = true;
+            
+            // Simulate form submission
+            setTimeout(() => {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+                
+                // Show success modal
+                document.getElementById('appointmentSuccessModal').classList.add('active');
+                document.body.style.overflow = 'hidden';
+                
+                // Reset form
+                this.reset();
+            }, 2000);
+        });
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
